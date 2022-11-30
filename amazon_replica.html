@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Replica</title>
+    <link rel="stylesheet" href="amazon_replica.css">
+</head>
+<body>
+    <section id="login">
+    <h1>Amazon Login</h1>
+    <img src="https://via.placeholder.com/100" alt="" id="login-image">
+    <p> Please enter your login information.</p>
+    </section>
+    <div class="container">
+        <h3>Sign In</h3>
+        <div id="email">
+            <label for="email">Email (phone or mobile accounts)</label>
+            <input id="email" name="email" type="text" required />
+        </div>
+        <br>
+        <div id="password">
+            <br>
+            <label for="password">Password <a href="#">Forgot Password</a></label>
+            <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required />
+        </div>
+        <br>
+        <div>
+            <button id="submit">Sign In</button>
+        </div>
+        <div id="help"><a href="#">Need Help?</a></div>
+       
+    </div>
+    <div id="sign-up-container">
+        <p>New To Amazon?</p>
+        <button id="sign-up">Sign Up</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    background-color:whitesmoke;
+    width: 100%;
+    height:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login-image{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1,p{
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color:white;
+    height: 400px;
+    width: 400px;
+    display:block;
+    /* justify-content: center; */
+    border: 1.5px solid lightgray;
+    /* align-items: center; */
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+label, #email, #password{
+    display:block;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    width: 300px;
+    height: 25px;
+}
+
+#submit{
+    margin: 75px auto;
+    width: 300px;
+    height: 35px;
+    display:block;
+    justify-content: center;
+    background-color: rgb(230, 188, 80);
+}
+
+#submit:hover{
+    background-color: rgb(255, 208, 0);
+}
+
+a:hover {
+    color: green;
+}
+
+#help {
+    margin: 20px;
+}
+
+#sign-up {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin:auto;
+    
+}
