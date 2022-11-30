@@ -38,6 +38,16 @@ label, #email, #password{
     width: 300px;
     height: 25px;
 }
+/* #password{
+    display:flexbox;
+    align-items:;
+    justify-content: space-between;
+} */
+label {
+    font-weight:600;
+    font-size:15px;
+}
+
 
 #submit{
     margin: 75px auto;
